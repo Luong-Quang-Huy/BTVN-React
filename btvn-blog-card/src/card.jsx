@@ -1,11 +1,16 @@
 const Card = ({img, title, description, seen, releaseDate}) => {
-    description = description.length > 120 ? description.substring(0,120) + '...' : description;
-    return <div className="card">
+    return (
+      <div className="card">
         <img className="card__photo" src={img} />
         <h3 className="card__title">{title}</h3>
-        <p className="card__description">{description}</p>
+        <p className="card__description">
+          {description.length > 120
+            ? description.substring(0, 120) + "..."
+            : description}
+        </p>
         <CardBottom seen={seen} releaseDate={releaseDate} />
-    </div>;
+      </div>
+    );
 }
 
 const CardBottom = ({seen, releaseDate}) => {
