@@ -1,0 +1,12 @@
+*{
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+.app{
+  background-color: #363636;
+  height: 100vh;
+}

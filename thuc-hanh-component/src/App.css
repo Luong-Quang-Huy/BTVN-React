@@ -1,0 +1,134 @@
+
+
+.accordion-container{
+  width: 70vw;
+  margin: 0 auto;
+}
+
+ul{
+  list-style: none;
+}
+
+.accordion-heading{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6rem;
+  cursor: pointer;
+}
+
+.accordion-heading:hover{
+  background-color: #574848;
+}
+
+
+.accordion-heading--open{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6rem;
+  background-color: blueviolet;
+  cursor: pointer;
+}
+
+
+.accordion-content{
+  padding: 1rem;
+  background-color: #030303;
+  overflow: hidden;
+  
+}
+
+.show-button{
+ background: none;
+ border: none;
+}
+
+button{
+  cursor: pointer;
+}
+
+h2{
+  text-align: center;
+}
+
+
+.dropDown-container{
+  margin-top: 20px;
+  margin-left: 200px;
+}
+
+
+.dropDown-btn{
+  background-color: #5c635a;
+  border-radius: 6px;
+  line-height: 24px;
+  padding: 6px 12px;
+}
+
+.dropDown-list{
+  width: 160px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.dropDown-list > li{
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+.dropDown-list > li:hover{
+  background-color: rgb(175, 255, 255);
+}
+
+.dropDown-list > li:active{
+  background-color: aqua;
+}
+
+.side-modal{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  background: rgba(0,0,0,0.7);
+}
+
+.offCanvas-open-btn{
+  background-color: #5c635a;
+  border-radius: 6px;
+  line-height: 24px;
+  padding: 6px 12px;
+  margin-left: 200px;
+}
+
+.side-bar{
+  position: relative;
+  background-color: white;
+  height: 100vh;
+}
+
+.side-bar-exit-btn{
+  color: violet;
+  position: absolute;
+  background: none;
+  border: none;
+  font-size: 1.6rem;
+  top: 0.5rem;
+  right: 0.5rem;
+  font-weight: bold;
+}
+
+button.side-bar-exit-btn:hover{
+  color: red;
+}
+
+button.side-bar-exit-btn:active{
+  color: purple;
+}
+
+.side-bar-content{
+  color: #000000;
+  padding: 1rem;
+  padding-top: 5rem;
+}
