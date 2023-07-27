@@ -1,4 +1,4 @@
-import { useState, useEffect} from "react";
+import { useState} from "react";
 import { useCordinatesDispatch } from "./appContext";
 import { toSring } from "./utilities";
 import { apiKey } from "./utilities";

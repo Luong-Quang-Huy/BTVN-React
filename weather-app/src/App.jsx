@@ -1,10 +1,10 @@
 import { useEffect , useState } from 'react'
 import { ForeCastsProvider } from './appContext';
 import HourlyForecasts from './HourlyForecasts';
-import './App.css'
 import DailyForecasts from './DailyForecasts';
 import CurrentForecasts from './CurrentForecasts';
-import SearchLocation from './searchLocation';
+import SearchLocation from './SearchLocation';
+import './App.css'
 
 function App() {
 
